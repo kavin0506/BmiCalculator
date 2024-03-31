@@ -1,10 +1,12 @@
 import './App.css';
-import BmiCalculator from './BmiCalculator';
+import Digital from './Components/Digital';
+// import BmiCalculator from './BmiCalculator';
 
 function App() {
   return (
     <div className="App">
-     <BmiCalculator/>
+     {/* <BmiCalculator/> */}
+     <Digital/>
     </div>
   );
 }
